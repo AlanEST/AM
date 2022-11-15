@@ -1,2 +1,5 @@
 1. Aplique el modelo de análisis factorial por separado 
    a las expectativas de vida de hombres y mujeres y compare los resultados.
+   
+   lifem <- life[, c("m0", "m25", "m50", "m75")]
+   lifew <- life[, c("w0", "w25", "w50", "w75")]
